@@ -1,0 +1,248 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+        background-image: url(../img/kosmos_106.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-color: #4A72A9;
+        
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+}
+
+#logo {
+        background-image: url(../img/sputnic.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 360px;
+        height: 256px;
+        top: 0px;
+}
+
+.wrapper {
+        
+	width: 1000px;
+	margin: 0 auto;
+        
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {        
+	background-image: url(../img/bg.png);
+        border-radius: 5px;
+        padding: 5px; 
+        height: 42px;
+        width: 332px;
+}
+
+.nav {
+      border: 1px #828282 solid;
+      border-radius: 5px;
+      background: #d4d4d4; 
+      height: 40px;
+      width: 330px;
+}
+
+
+.nav ul li{
+    border-left: 1px #828282 dotted;
+    outline: 0px red solid;
+    padding: 10px 15px;
+    width: 50px;
+    background: #d4d4d4;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav ul li a {
+    font: 13px Arial, sans-serif;
+    color: #004F9B;
+    text-decoration: none;
+    display: block;
+}
+
+.nav ul li a:hover {  
+    font: 14px Arial, sans-serif;
+    color: #828282;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+    background-image: url(../img/bg.png);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.content2 {    
+    background: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.content2 h1 {
+    font: 14px Arial, sans-serif;
+}
+
+.content2 h2 {
+    font: 16px Arial, sans-serif;
+}
+
+.content2 h3 {
+    font: 18px Arial, sans-serif;
+}
+
+.content2 h4 {
+    font: 20px Arial, sans-serif;
+}
+
+.content2 h5 {
+    font: 22px Arial, sans-serif;
+}
+
+.content2 h6 {
+    font: 24px Arial, sans-serif;
+}
+
+.content2 p {
+    font: 14px Arial, sans-serif;
+}
+
+.content2 a {
+    font: 14px Arial, sans-serif;
+    color: #004F9B;
+}
+
+.content2 h1, .content2 h2, .content2 h3,
+.content2 h4, .content2 h5, .content2 h6,
+.content2 p {
+    text-indent: 35px;
+    line-height: 1.5;
+}
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 50px;
+	
+}
+
+.footer p {
+    background-image: url(../img/bg.png);
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font: 14px Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.footer a {
+    color: white;
+}
+
+
+/* Update pages
+-------------------------------------------------------------------------------------*/
+#updatepage textarea {
+    width: 950px;
+    height: 400px;
+}
+
+/* Login Admin 
+-----------------------------------------------------------------------------------*/
+
+#login_wrapper {
+    margin: 200px auto; 
+    background-image: url(../img/bg.png);
+    border-radius: 5px;
+    padding: 5px;
+    width: 270px;
+}
+
+#login {   
+   padding: 10px;     
+   width: 250px;
+   background: #EEEEEE;
+}
+
+#login input {
+    width: 200px;
+}
+
+#login p {
+    padding: 0 25px 0 25px ;
+}
+
+#login button {
+    margin: 10px 70px 0px 70px;
+    padding: 0 25px 0 25px ;
+}
+
+/* E-mail
+-------------------------------------------------------------------*/
+#email td {
+    padding: 5px;
+}
+
+#email textarea {
+    height: 200px;
+    width: 400px;
+}

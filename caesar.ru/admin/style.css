@@ -1,0 +1,49 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#menu {
+    float: left;
+    width: 300px;
+    height: 600px;
+}
+
+#desc {
+    
+}
+
+li {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#addFilmInput {
+    width: 400px;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+}
+
+#addFilm {
+    margin-left: 200px;
+}
+
+#selectFilmUpdate {
+    float: left;
+}
+
+#tdSelect {
+    padding-left: 40px;
+}
+
+#sizeSelectFilms {
+    width: 400px;
+}
+#myTd {
+    padding-left: 200px;
+}
+
+

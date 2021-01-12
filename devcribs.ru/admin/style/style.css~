@@ -1,0 +1,335 @@
+@import "reset.css";
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 14px/18px Arial, sans-serif;
+	width: 100%;
+        background-color: #2B2B2B;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+#green {
+    color: #77B767;
+}
+
+#white {
+    color: white;
+}
+
+#white2 {
+    color: white;
+    margin-left: 50px;
+    
+}
+
+#white3 {
+    color: white;
+    margin-left: 75px;    
+}
+
+#white_t {
+    color: white;
+    margin-left: 25px;
+}
+
+#purple {
+    color: #9876AA;
+}
+
+#yellow {
+    color: #FFC66D;
+}
+#orange {
+    color: #CC7832;
+}
+
+#orange2 {
+    color: #CC7832;
+    margin-left: 25px;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 150px;	
+}
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	position: relative;
+        border: 1px black solid;
+        
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+        
+}
+.content {    
+	padding: 0 270px 0 0;        
+        background-color: #3C3F41;
+}
+
+#contentt {
+    width: 750px;	       
+    background-color: #EEEEEE;
+}
+
+#contentt div {
+    padding: 10px 30px 10px 50px;
+    }
+
+#contentt form {    
+    width: 650px;
+    margin: 10px 30px 0px 50px;
+    border-top: 1px black dotted;
+}
+
+#contentt form table{  
+    width: 500px;
+    margin: 10px 30px 0px 50px;    
+}
+
+#contentt form table tr{ 
+    height: 25px;    
+}
+
+#contentt form table tr h3{ 
+    font-weight: bold;
+    color: #CC7832;
+}
+
+#contentt form table tr td button{
+    margin-right: 100px;
+    float: right;
+}
+
+#contentt form table tr textarea{     
+    width: 400px;  
+    height: 100px;
+}
+
+#contentt b {    
+    font-weight: bold;
+}
+
+#contentt b .white{   
+    color: white; 
+    font-weight: bold;
+}
+
+#comment {
+    outline: 0px red solid;
+}
+
+#comment ul {
+    width: 500px;
+}
+
+#comment ul li {
+    width: 230px;
+    margin: 0 10px 5px 0px;
+    float: left;
+}
+
+#comment h3 {
+    font-weight: bold;
+    color: #9876AA;
+}
+
+#comment p {    
+    float: none;
+}
+
+
+
+
+
+#comment {    
+    width: 500px;
+    margin: 10px 30px 0px 50px;
+}
+
+
+#contentt div a{
+    text-decoration: none; 
+        font-weight: bold;
+        color: #CC7832;
+}
+
+#contentt div a:hover{
+        text-decoration: none; 
+        font-weight: bold;
+        color: #9876AA;
+}
+
+#contentt div p {
+    text-indent: 35px;
+    font: 15px Arial, sans-serif;
+    line-height: 1.5;
+}
+
+#contentt ul {
+    line-height: 1.4;
+    margin-left: 50px;
+}
+
+#contentt ul li {
+    list-style-type: circle;
+}
+
+#liMenuBorder  {
+    border-bottom: 4px #515658 solid;
+    height: 20px;
+}
+
+#liMenu {
+    float: left;
+    width: 120px;
+    height: 20px;
+    background-color: #3C3E3F;
+    border-right: 1px black solid;
+    background-repeat: no-repeat;
+    background-image: url(../img/icon.png);
+    background-position: 3px;
+    
+}
+
+#liMenu:hover {
+    float: left;
+    width: 120px;
+    height: 20px;
+    background-color: #515658;
+    border-right: 1px black solid;
+    background-repeat: no-repeat;
+    background-image: url(../img/icon2.png);
+    background-position: 3px;    
+}
+
+#liMenuA {
+    float: left;
+    width: 120px;
+    height: 20px;
+    background-color: #515658;
+    border-right: 1px black solid;
+    background-repeat: no-repeat;
+    background-image: url(../img/icon.png);
+    background-position: 3px;    
+}
+
+#liMenu a {
+    margin-left: 50px;
+    color: white;    
+    text-decoration: none;
+    
+    
+}
+
+#liMenuA a {
+    margin-left: 50px;
+    color: white;    
+    text-decoration: none;
+    
+}
+
+
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+.right-sidebar {
+	float: left;
+	width: 250px;
+	margin-left: -250px;
+	position: relative;
+	background: #3C3F41;
+}
+
+#divNav {
+    height: 20px;
+    background-color: #424D5F;
+}
+
+#divNav p {
+    margin-left: 15px;
+    color: white;
+}
+
+.right-sidebar div ul li {
+   padding: 5px 0px 5px 50px;
+   background-repeat: no-repeat;
+   background-image: url(../img/icon.png);
+   background-position: 15px;
+   
+}
+
+.right-sidebar div ul li:hover {
+   padding: 5px 0px 5px 50px;
+   background-repeat: no-repeat;
+   background-image: url(../img/icon2.png);
+   background-position: 15px;
+   
+}
+
+.right-sidebar div ul li a {
+   font: 16px Arial, sans-serif;
+   text-decoration: none;
+   color: white;
+    
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 100px;
+	
+}
+
+
+.content table{
+        width: 650px;        
+}
+
+
+.content table tr td h1{
+        float: left;
+        font: 18px Arial, sans-serif;
+        font-weight: bold;
+        padding-left: 50px; 
+        padding-bottom: 10px;
+        padding-top: 25px;
+}
+
+.content table tr td h2{
+        float: right;
+        text-decoration: none;
+        padding-bottom: 10px;
+        padding-top: 25px;
+}
+
+.content table tr td p{
+        font: 14px Arial, sans-serif;
+              
+}
+
+
+
+
+#tdBord {
+    border-bottom: 1px black dotted;    
+}

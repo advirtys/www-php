@@ -1,0 +1,93 @@
+body {
+    background-color: #6d0505;
+}
+
+#wrapper {
+    outline: 0px solid gray;
+    width: 800px;    
+    margin: 0 auto;
+    
+}
+
+#logo {
+    background-image: url(img/icon.png);
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 340px;
+}
+
+#seansesWrapper {
+    background-image: url(img/bgSeans.png);     
+    height: 50px;
+}
+
+#seansesList {
+    background-color: #FFFFFF; 
+    
+}
+
+#tableSeanses {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#bgFooter {
+    background-image: url(img/bgSeans.png);
+    height: 50px;
+}
+
+    #dayMon {
+    color: #2e2222;
+    margin-left: 105px;
+    margin-top: -4px;
+    font: bold 20px Verdana;
+    text-transform: uppercase;
+}
+
+#dayOfWeek {
+    color: #2e2222;
+    margin-left: 105px;    
+    font: bold 20px Verdana;
+    text-transform: uppercase;
+}
+
+#labels {
+    color: #3b2c2c;
+    font: bold 16px Verdana;
+    text-transform: uppercase;
+}
+
+#imgLogo {
+    padding-left: 15px;
+    float: left;
+    margin: 7px 7px 7px 0px;
+}
+
+#desc {
+    color: #2e2222;
+    margin-left: 300px;    
+    font: bold 17px Verdana;
+    
+}
+
+#desc span {
+    color: #3b2c2c;     
+    font: bold 17px Verdana;
+    
+}
+
+#description {
+    margin-left: 300px;
+    margin-right: 20px;
+}
+
+a {
+    color: #6d0505;
+}
+
+a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+

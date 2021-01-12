@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<films>
+    
+<?php
+require 'db_connect.php';
+$db = new DB_CONNECT();
+ mysql_query("SET NAMES 'utf8'"); 
+ mysql_query("SET CHARACTER SET 'utf8'");
+ mysql_query("SET SESSION collation_connection = 'utf8_general_ci'");
+$result = mysql_query("SELECT * FROM films") or die(mysql_error());
+    while ($row = mysql_fetch_array($result)){       
+        echo "<film id =\"".$row["id"]."\">\n"; 
+        echo "<title>".$row["title"]."</title>\n";
+        echo "<description>".$row["description"]."</description>\n";
+        echo "<genre>".$row["genre"]."</genre>\n";
+        echo "<img>".$row["img"]."</img>\n";
+        echo "<time>".$row["time"]."</time>\n";
+        echo "<year>".$row["year"]."</year>\n";      
+        echo "</film>\n\n";
+        
+        
+    }
+?>
+</films>

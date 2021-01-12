@@ -1,0 +1,420 @@
+@import "reset.css";
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 14px/18px Arial, sans-serif;
+	width: 100%;
+        background-color: #2B2B2B;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+#green {
+    color: #77B767;
+}
+
+#white {
+    color: white;
+}
+
+#white2 {
+    color: white;
+    margin-left: 50px;
+    
+}
+
+#white3 {
+    color: white;
+    margin-left: 75px;    
+}
+
+#white_t {
+    color: white;
+    margin-left: 25px;
+}
+
+#purple {
+    color: #9876AA;
+}
+
+#yellow {
+    color: #FFC66D;
+}
+#orange {
+    color: #CC7832;
+    
+}
+
+#orange2 {
+    color: #CC7832;
+    margin-left: 25px;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 150px;	
+}
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	position: relative;
+        border: 1px black solid;
+        
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+        
+}
+.content {    
+    height: 1050px;
+	padding: 0 270px 0 0;        
+        background-color: #3C3F41;
+}
+
+#contentt {
+    height: 1050px;
+    width: 750px;    
+    background-color: #EEEEEE;
+}
+
+#contentt div a{
+    text-decoration: none; 
+        font-weight: bold;
+        color: #CC7832;
+}
+
+#contentt div a:hover{
+        text-decoration: none; 
+        font-weight: bold;
+        color: #9876AA;
+}
+
+#contentt div {
+    padding: 10px 30px 10px 25px;
+    }
+
+#contentt div p {
+    text-indent: 35px;
+    font: 15px Arial, sans-serif;
+    line-height: 1.5;
+}
+
+#contentt ul {
+    line-height: 1.4;
+    margin-left: 50px;
+}
+
+#contentt ul li {
+    list-style-type: circle;
+}
+
+#liMenuBorder  {
+    border-bottom: 4px #515658 solid;
+    height: 20px;
+}
+
+#liMenu { 
+    float: left;
+    color: white;    
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    width: 18%;
+    height: 20px;
+    background: #3C3E3F;
+    border-right: 1px black solid;
+    background-repeat: no-repeat;
+    background-image: url(../img/icon.png);
+    background-position: 3px;    
+}
+
+#liMenu:hover {
+    color: white;    
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    width: 18%;
+    height: 20px;
+    background: #515658;
+    border-right: 1px black solid;
+    background-repeat: no-repeat;
+    background-image: url(../img/icon2.png);
+    background-position: 3px;     
+}
+
+#liMenu:active {
+    color: white;    
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    width: 18%;
+    height: 20px;
+    background: #515658;
+    border-right: 1px black solid;
+    background-repeat: no-repeat;
+    background-image: url(../img/icon2.png);
+    background-position: 3px;     
+}
+
+
+
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+.right-sidebar {
+	float: left;
+	width: 250px;
+	margin-left: -250px;
+	position: relative;
+	background: #3C3F41;
+}
+
+#divNav {
+    height: 20px;
+    background-color: #424D5F;
+}
+
+#divNav p {
+    margin-left: 15px;
+    color: white;
+}
+
+.right-sidebar div ul li {
+   padding: 5px 0px 5px 50px;
+   background-repeat: no-repeat;
+   background-image: url(../img/icon.png);
+   background-position: 15px;
+   
+}
+
+.right-sidebar div ul li:hover {
+   padding: 5px 0px 5px 50px;
+   background-repeat: no-repeat;
+   background-image: url(../img/icon2.png);
+   background-position: 15px;
+   
+}
+
+.right-sidebar div ul li a {
+   font: 16px Arial, sans-serif;
+   text-decoration: none;
+   color: white;
+    
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 100px;
+	
+}
+
+
+.content table{
+        width: 650px;        
+}
+
+
+.content table tr td h1{
+        float: left;
+        font: 18px Arial, sans-serif;
+        font-weight: bold;
+        padding-left: 50px; 
+        padding-bottom: 10px;
+        padding-top: 25px;
+}
+
+.content table tr td h2{
+        float: right;
+        text-decoration: none;
+        padding-bottom: 10px;
+        padding-top: 25px;
+}
+
+.content table tr td p{
+        font: 14px Arial, sans-serif;
+              
+}
+
+
+
+
+#tdBord {
+    border-bottom: 1px black dotted;    
+}
+
+#update, #remove, #read {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+    
+}
+
+#update button, #remove button, #read button {
+    background: none;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: #CC7832;
+}
+
+
+
+
+#update {
+    margin-left: 10px;
+}
+
+
+#login {
+   padding: 10px;
+   margin: 0 auto;   
+   width: 250px;
+   background: #EEEEEE;
+}
+
+#login input {
+    width: 200px;
+}
+
+#login p {
+    padding: 0 25px 0 25px ;
+}
+
+#login button {
+    margin: 10px 70px 0px 70px;
+    padding: 0 25px 0 25px ;
+}
+
+#addRub {    
+    height: 100px;    
+}
+
+#addRub input{
+    width: 200px;
+    margin: 20px;    
+}
+
+#addRub button {
+    margin: 10px 80px;
+}
+
+
+#delRub {
+    height: 300px;
+}
+
+#delRub button {    
+    font: 16px Arial, sans-serif;
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+    display: block;
+    margin: 10px
+    
+}
+
+//-----------------------------------
+
+#articles {
+    width: 600px;
+}
+
+#articles td textarea{
+    width: 600px;
+    height: 400px;
+}
+
+#articles td input {
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+//---------------------
+
+
+#pages td p{
+    font: 16px Arial, sans-serif;
+    font-weight: bold;
+}
+
+#pages td button{
+    background: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: #CC7832;
+}
+
+#pages td{
+    text-align: center;
+    border: 1px #515658 dotted;
+    padding: 10px;
+}
+
+//-------------------------
+
+#addPage {
+    
+}
+
+#addPage td textarea{
+    width: 600px;
+    height: 100px;
+}
+
+#addPage td input {
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+#addPage td {
+    
+    padding: 5px;
+    
+}
+
+//-------------------------------------
+.comment {
+    
+}
+.comment h5{
+    font: 16px Arial, sans-serif;
+    font-weight: bold;
+    color: #CC7832;
+}
+
+.comment h5 span{
+    font: 16px Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.comment button {
+    background: none;
+    outline: none;
+    border: 2px #9876AA solid;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #9876AA;
+}
